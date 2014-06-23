@@ -1,0 +1,60 @@
+body {
+  height: 100%;
+  margin: 0px, 0px;
+  /*background-color: #c07070;*/
+  background-color: #fb4141;
+}
+.master-container {
+  height: 700px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+#nav-bar {
+  color: white;
+  font-family: "Open Sans Condensed";
+  float: right;
+  font-size: 100%;
+  padding-right: 1%;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+#title {
+  color: white;
+  font-size: 900%;
+  font-family: "Dancing Script";
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+#title-container {
+  padding-left: 21%;
+  padding-top: 14%;
+  margin: 0px 0px;
+}
+
+#description {
+  color: white;
+  font-family: "Open Sans Condensed";
+}
+
+#description-container {
+  padding-left: 24%;
+  padding-right: 25%;
+  margin: 0px 0px;
+}
+
+@media screen and (max-width: 500px) {
+  #title {
+    font-size: 500%;
+  }
+
+  #title-container {
+    padding-top: 25%;
+  }
+}
