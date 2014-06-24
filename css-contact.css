@@ -1,0 +1,52 @@
+body {
+  background-color: #ffc100;
+}
+
+#title {
+  font-size: 500%;
+}
+
+#title-container {
+  padding-left: 35%;
+  padding-top: 14%;
+  margin: 0px 0px;
+}
+
+#description-container {
+  padding-left: 40%;
+  padding-right: 25%;
+  margin: 0px 0px;
+}
+
+#description {
+  color: white;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+}
+
+#images {
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 500px) {
+  #title {
+    font-size: 300%;
+  }
+
+  #title-container {
+    padding-top: 25%;
+    padding-left: 18%;
+  }
+
+  #description-container {
+    padding-left: 20%;
+    padding-right: 15%;
+  }
+
+  #images {
+    margin-left: 10%;
+  }
+}

@@ -1,27 +1,10 @@
 body {
   height: 100%;
   margin: 0px, 0px;
-  /*background-color: #c07070;*/
   background-color: #fb4141;
 }
 .master-container {
   height: 700px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-#nav-bar {
-  color: white;
-  font-family: "Open Sans Condensed";
-  float: right;
-  font-size: 100%;
-  padding-right: 1%;
-}
-
-.active {
-  text-decoration: underline;
 }
 
 #title {
@@ -38,16 +21,22 @@ a {
   margin: 0px 0px;
 }
 
-#description {
+a {
   color: white;
-  font-family: "Open Sans Condensed";
+  text-decoration: none;
 }
 
-#description-container {
-  padding-left: 24%;
-  padding-right: 25%;
-  margin: 0px 0px;
+#navigation {
+  color: white;
+  font-family: "Open Sans Condensed";
+  font-size: 280%;
+  padding-left: 30%;
 }
+
+.active {
+  color: #645d5d;
+}
+
 
 @media screen and (max-width: 500px) {
   #title {

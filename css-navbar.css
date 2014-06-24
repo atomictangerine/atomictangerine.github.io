@@ -1,0 +1,16 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#nav-bar {
+  color: white;
+  font-family: "Open Sans Condensed";
+  float: right;
+  font-size: 120%;
+  padding-right: 1%;
+}
+
+.active {
+  text-decoration: underline;
+}
