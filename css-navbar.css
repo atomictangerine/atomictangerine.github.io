@@ -3,14 +3,19 @@ a {
   text-decoration: none;
 }
 
+
+.active {
+  color: #645d5d;
+}
+
+.hover:hover {
+  color: #645d5d;
+}
+
 #nav-bar {
   color: white;
   font-family: "Open Sans Condensed";
   float: right;
   font-size: 120%;
   padding-right: 1%;
-}
-
-.active {
-  text-decoration: underline;
 }

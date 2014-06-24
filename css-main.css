@@ -34,9 +34,56 @@ a {
 }
 
 .active {
+  text-decoration: none;
   color: #645d5d;
 }
 
+/*@media screen and (max-width: 1500px) {
+  #title-container {
+    padding-top: 15%;
+    padding-left: 15%;
+  }
+
+  #navigation {
+    padding-left: 23%;
+    padding-top: 5%;
+    /*font-size: 150%;*/
+  }
+}*/
+
+@media screen and (max-width: 890px) {
+  #title {
+    font-size: 700%;
+  }
+
+  #title-container {
+    padding-top: 25%;
+    padding-left: 15%;
+  }
+
+  #navigation {
+    padding-left: 20%;
+    padding-top: 5%;
+    /*font-size: 150%;*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #title {
+    font-size: 500%;
+  }
+
+  #title-container {
+    padding-top: 25%;
+    padding-left: 15%;
+  }
+
+  #navigation {
+    padding-left: 25%;
+    padding-top: 5%;
+    font-size: 150%;
+  }
+}
 
 @media screen and (max-width: 500px) {
   #title {
@@ -45,5 +92,12 @@ a {
 
   #title-container {
     padding-top: 25%;
+    padding-left: 23%;
+  }
+
+  #navigation {
+    padding-left: 15%;
+    padding-top: 5%;
+    font-size: 150%;
   }
 }

@@ -25,6 +25,7 @@ body {
 .image {
   height: 50px;
   width: 50px;
+  padding-right: 3%;
 }
 
 #images {
@@ -42,11 +43,11 @@ body {
   }
 
   #description-container {
-    padding-left: 20%;
-    padding-right: 15%;
+    padding-left: 16%;
+    padding-right: 10%;
   }
 
   #images {
-    margin-left: 10%;
+    margin-left: 13%;
   }
 }
