@@ -38,19 +38,6 @@ a {
   color: #645d5d;
 }
 
-/*@media screen and (max-width: 1500px) {
-  #title-container {
-    padding-top: 15%;
-    padding-left: 15%;
-  }
-
-  #navigation {
-    padding-left: 23%;
-    padding-top: 5%;
-    /*font-size: 150%;*/
-  }
-}*/
-
 @media screen and (max-width: 890px) {
   #title {
     font-size: 700%;

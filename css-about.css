@@ -3,40 +3,46 @@ body {
   background-color: #3fb6d8;
 }
 
-.master-container{
+#nav-bar {
+  float: none;
+  padding-right: none;
+  text-align: right;
 }
 
-.left-container {
-  width: 310px;
-  height: 450px;
-  float: left;
-  margin-top: 10%;
-  margin-left: 15%;
-}
-
-#picture {
-  background: url(picture.jpeg);
-  background-position: 70% 30%;
-  height: 450px;
-  width: 310px;
-  border: 0%;
-}
-
-.right-container {
-  width: 49%;
-  height: 400px;
-  float: right;
-  margin-right: 10%;
-  margin-top: 10%;
+.header-container{
+  padding-left: 5%;
 }
 
 #header {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   color: white;
-  font-size: 500%;
+  font-size: 700%;
   font-family: "Dancing Script";
 
+}
+
+.left-container {
+  width: 330px;
+  height: 500px;
+  float: left;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-bottom: 3%;
+}
+
+#picture {
+  background: url(aboutmepicture.png);
+  height: 100%;
+  width: 100%;
+}
+
+.right-container {
+  width: 30%;
+  height: 400px;
+  float: right;
+  margin-right: 20%;
+  margin-top: 15%;
 }
 
 #desc {
