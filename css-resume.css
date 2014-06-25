@@ -1,3 +1,92 @@
 body {
   background-color: #ff571b;
 }
+
+.words {
+  color: white;
+  font-family: "Open Sans Condensed";
+}
+
+.master-container {
+  padding-left: 7%;
+  min-height: 700px;
+  height: auto;
+  padding-bottom: 7%;
+}
+
+.header-container {
+  width: 100%;
+  float: left;
+  padding-top: 2%;
+}
+
+#header {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  font-size: 350%;
+  float: left;
+  font-family: "Dancing Script";
+}
+
+#header-2 {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  width: 45%;
+  float: left;
+  padding-top: 2.7%;
+  padding-left: 1%;
+}
+
+.education-container{
+  color: white;
+}
+
+.main-header {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  float: left;
+  padding-left: 3%;
+  font-size: 180%;
+  width: 100%;
+}
+
+.main-text{
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  float: left;
+  padding-left: 6%;
+}
+
+.indent-text{
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  float: left;
+  padding-left: 4%;
+  width: 65%;
+}
+
+.degree{
+  font-size: 100%;
+}
+#degree{
+  padding-left: 8%;
+}
+
+.honor {
+  width: 100%;
+}
+
+table{
+  padding-left: 4%;
+}
+
+.experience{
+  width: 100%;
+  padding-top: 1%;
+}
+.sub-text{
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  padding-left: 8%;
+  font-size: 100%;
+}

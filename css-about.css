@@ -26,7 +26,7 @@ body {
   width: 330px;
   height: 500px;
   float: left;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 20%;
   margin-bottom: 3%;
 }
@@ -35,6 +35,7 @@ body {
   background: url(aboutmepicture.png);
   height: 100%;
   width: 100%;
+  border-radius: 6px;
 }
 
 .right-container {
