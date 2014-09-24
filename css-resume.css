@@ -7,40 +7,23 @@ body {
   font-family: "Open Sans Condensed";
 }
 
-.header-container {
-  width: 100%;
-  float: left;
-  padding-top: 10px;
-  padding-left: 20px;
-}
-
-#header {
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  font-size: 350%;
-  float: left;
-  font-family: "Dancing Script";
-}
-
-#header-2 {
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  width: 45%;
-  float: left;
-  padding-top: 40px;
-  padding-left: 1%;
-}
-
-.topic{
-  clear: both;
-  
-}
-
 caption{
   text-align: left;
   padding-left: 3%;
   font-size: 190%;
-  width: 100%;
+}
+
+.header {
+  width: 200%;
+  font-size: 450%;
+  font-family: "Dancing Script";
+  padding-left: 20px;
+  padding-top: 35px;
+}
+
+.topic{
+  clear: both;
+
 }
 
 .text{
@@ -57,13 +40,14 @@ caption{
 }
 
 table{
-  padding-left: 4%;
+  padding-left: 60px;
+  margin-bottom: 25px;
 }
 
-.experience{
-  width: 100%;
-  padding-top: 1%;
+.references{
+  padding-left: 25px;
 }
+
 .sub-text{
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;

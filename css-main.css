@@ -1,10 +1,7 @@
 body {
   height: 100%;
   margin: 0px, 0px;
-  background-color: #fb4141;
-}
-.master-container {
-  height: 700px;
+  background-color: #1f2838;
 }
 
 #title {
@@ -13,12 +10,11 @@ body {
   font-family: "Dancing Script";
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
+
 }
 
 #title-container {
-  padding-left: 21%;
-  padding-top: 14%;
-  margin: 0px 0px;
+  margin: 194px 0px 0px 262px;
 }
 
 a {
