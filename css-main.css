@@ -4,12 +4,15 @@ body {
   background-color: #1f2838;
 }
 
-#title {
+.title {
+  margin-top: 230px;
+  margin-left: 290px;
+}
+
+#title{
   color: white;
   font-size: 900%;
   font-family: "Dancing Script";
-  text-align: left;
-  width: 200%;
 }
 
 a {
@@ -29,12 +32,7 @@ a {
 }
 
 .main-page{
-  margin-top: 250px;
-  margin-left: 250px;
-}
-
-#first-nav{
-  padding-left: 110px;
+  margin-left: 400px;
 }
 
 @media screen and (max-width: 890px) {
@@ -50,7 +48,6 @@ a {
   #navigation {
     padding-left: 20%;
     padding-top: 5%;
-    /*font-size: 150%;*/
   }
 }
 
